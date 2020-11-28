@@ -1,0 +1,175 @@
+<mxfile host="65bd71144e" modified="2020-11-28T10:24:48.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" version="13.6.5" etag="f-DfrltNqI3CMKhZJ2U5">
+    <diagram id="aCX2AcQYlGUdhHFUoVSV" name="第 1 页">
+        <mxGraphModel dx="3799" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="组件中使用 &lt;font color=&quot;#ff5314&quot;&gt;useRecoilState&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="1">
+                    <mxGeometry x="-1177" y="40" width="140" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font color=&quot;#ff3333&quot;&gt;useRecoilValue&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="1">
+                    <mxGeometry x="-1010" y="80" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font color=&quot;#ff3333&quot;&gt;useSetRecoilState&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="1">
+                    <mxGeometry x="-1210" y="80" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=classic;html=1;fontColor=#330000;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1080" y="60" as="sourcePoint"/>
+                        <mxPoint x="-930" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;fontColor=#330000;fillColor=#a20025;strokeColor=#6F0000;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1120" y="60" as="sourcePoint"/>
+                        <mxPoint x="-1000" y="85.55555555555554" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;html=1;fontColor=#330000;fillColor=#60a917;strokeColor=#2D7600;exitX=0.4;exitY=0.966;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="22">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1000" y="190" as="sourcePoint"/>
+                        <mxPoint x="-1196" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#006666&quot;&gt;setRecoilvalue&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="-0.8382" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot; color=&quot;#006666&quot;&gt;queueOrPerformStateUpdate&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="-0.6374" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20color%3D%26quot%3B%2366cc00%26quot%3B%20style%3D%26quot%3Bbackground-color%3A%20rgb(255%20%2C%20255%20%2C%20255)%26quot%3B%26gt%3BqueueOrPerformStateUpdate%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3BfontColor%3D%23330000%3B%22%20vertex%3D%221%22%20connectable%3D%220%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-845.3628636666285%22%20y%3D%22159.3128545964115%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="-0.3786" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#006666&quot;&gt;applyActionsToStore&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="-0.3906" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot; color=&quot;#006666&quot;&gt;store.replaceState&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;labelBorderColor=#3333FF;spacingTop=0;" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="-0.0964" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#006666&quot;&gt;applyAction&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="0.1063" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#006666&quot;&gt;writeLoadableToTreeState&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="0.3308" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot; color=&quot;#ff5314&quot;&gt;state.atomvalue.set(key, loadable)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="0.5072" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;fontColor=#330000;fillColor=#60a917;strokeColor=#2D7600;exitX=0.4;exitY=0.966;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-989" y="100.00000000000006" as="sourcePoint"/>
+                        <mxPoint x="-991" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;完成写 state&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FF66B3;" vertex="1" parent="1">
+                    <mxGeometry x="-1260" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;完成读 state&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FF66B3;" vertex="1" parent="1">
+                    <mxGeometry x="-1050" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#006666&quot;&gt;useRecoilLoadable&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-990.0003995447194" y="120.00350663087772" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#006666&quot;&gt;useRecoilvalueLoadable_LEGACY&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;labelBorderColor=#0000FF;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-1000.0003995447194" y="160.00350663087772" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#006666&quot;&gt;getRecoilValueAsLoadable&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-990.0003995447194" y="210.00350663087772" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#006666&quot;&gt;getNodeLoadable&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-990.0003995447194" y="260.0035066308777" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#ff5314&quot;&gt;state.atomvalue.get(key)&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-990.0003995447194" y="300.0035066308777" as="geometry">
+                        <mxPoint x="-5" y="5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;strokeColor=#FF3399;fontColor=#330000;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-910" y="160" as="sourcePoint"/>
+                        <mxPoint x="-840" y="188" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="&lt;span style=&quot;color: rgb(0 , 102 , 102)&quot;&gt;const [_, forceUpdate] = useState()&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 102 , 102)&quot;&gt;useEffect(() =&amp;gt; {&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 102 , 102)&quot;&gt;&amp;nbsp; &amp;nbsp;store.getState()&lt;/span&gt;&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;&amp;nbsp; &amp;nbsp;.queuedComponentCallbacks_DEPRECATED&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 102 , 102)&quot;&gt;&amp;nbsp; &amp;nbsp;.push(() =&amp;gt; forceUpdate({}))&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#006666&quot;&gt;})&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF99CC;strokeWidth=2;fillColor=#FFFFFF;fontColor=#330000;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="-840" y="150" width="270" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="nutifyBatcherOfChange.current()" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFFFFF;fontColor=#330000;strokeColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="-1320" y="480" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=classic;html=1;strokeColor=#FF3399;fontColor=#330000;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1240" y="220" as="sourcePoint"/>
+                        <mxPoint x="-1300" y="477" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-1300" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="也就是 Batcher 的 setState({})" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="-1310" y="562" width="150" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="endArrow=classic;html=1;fontColor=#330000;exitX=0.341;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="45">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1020" y="470" as="sourcePoint"/>
+                        <mxPoint x="-1245" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="" style="endArrow=classic;html=1;fontColor=#330000;exitX=0.427;exitY=1.068;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="51">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1020" y="550" as="sourcePoint"/>
+                        <mxPoint x="-1246" y="730" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#cc6600&quot;&gt;Batcher更新，Batcher 的 useEffect 执行&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="57">
+                    <mxGeometry x="-0.3885" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="&lt;font color=&quot;#cc6600&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;sendEndOfBatcherNotifications()&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-1234.9952879673954" y="657.5599957505099" as="geometry">
+                        <mxPoint y="19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(204 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-1225.9652879673954" y="657.5599957505099" as="geometry">
+                        <mxPoint x="-27" y="44" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="&lt;font color=&quot;#cc6600&quot; style=&quot;font-size: 11px ; text-align: center&quot;&gt;storeState&lt;/font&gt;&lt;span style=&quot;color: rgb(204 , 0 , 0)&quot;&gt;.queuedComponentCallbacks_DEPRECATED&lt;br&gt;.forEach(&lt;br&gt;&amp;nbsp; &amp;nbsp;cb =&amp;gt; cb()&lt;br&gt;)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;strokeWidth=1;fillColor=#FFFFFF;fontColor=#330000;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="-1330" y="730" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="endArrow=classic;html=1;fontColor=#330000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1023" y="760" as="sourcePoint"/>
+                        <mxPoint x="-690" y="270" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-690" y="760"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 19px&quot;&gt;订阅 state&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="1">
+                    <mxGeometry x="-797" y="120" width="87" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 17px&quot;&gt;触发更新，让订阅 state 的组件更新&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="1">
+                    <mxGeometry x="-1000" y="730" width="290" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

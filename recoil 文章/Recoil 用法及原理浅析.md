@@ -1092,7 +1092,7 @@ onst replaceState = replacer => {
 
 以上大致的流程，描述了 recoil 的状态设置、读取、订阅的过程，可以用以下这个图概括：
 
-![recoil 订阅原理](./recoil 订阅原理.png)
+![recoil 订阅原理](./recoil订阅原理.png)
 
 ### 总结
 
