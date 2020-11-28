@@ -1,0 +1,13 @@
+#clear-cart{
+  background-color: rgb(223, 30, 30);
+  margin-left: 20px;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+}
+#clear-cart:hover{
+  cursor: pointer;
+}
+#clear-cart:active{
+  background-color: rgb(214, 122, 122);
+}

@@ -1,0 +1,28 @@
+.order-item{
+  background-color: rgb(226, 192, 164);
+  width: 300px;
+  height: 200px;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+}
+.submit-button{
+  margin: 20px;
+  width: 100px;
+  height: 25px;
+  color: white;
+  background-color: brown;
+  border-radius: 3px;
+  text-align: center;
+}
+.submit-button:hover{
+  cursor: pointer;
+}
+.submit-button:active{
+  background-color: rgb(170, 111, 111);
+}
+.submit-success{
+  color: rgb(66, 187, 66);
+  background-color: aliceblue;
+  padding: 10px
+}

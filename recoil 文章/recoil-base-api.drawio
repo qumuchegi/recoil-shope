@@ -1,0 +1,188 @@
+<mxfile host="65bd71144e" modified="2020-10-29T02:39:45.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="0xmIxhhM9Lh4KoMQt0Yy" version="13.6.5">
+    <diagram id="i2OgHjfCd6dJsEXkG7xI" name="第 1 页">
+        <mxGraphModel dx="1069" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="76" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="940" y="620" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="90" width="280" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="115" width="200" height="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1160" y="140" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="[ state, setState ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1370" y="130" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1160" y="180" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="state" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1370" y="170" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="40" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1170" y="220" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="atom" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="130" width="55" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="selector" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="310" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="setState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1370" y="210" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="retSetState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1370" y="250" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="29" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;dashed=1;rotation=90;size=0.3333333333333333;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="350" width="60" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="writeable selector" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="437" y="450" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="readonly selector" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="450" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="异步 atom&amp;nbsp;" style="endArrow=classic;html=1;entryX=-0.008;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" target="42" edge="1">
+                    <mxGeometry x="-0.7408" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="560" y="170" as="sourcePoint"/>
+                        <mxPoint x="810" y="380" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="900" y="170"/>
+                            <mxPoint x="900" y="379"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="useRecoilState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="125" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="useRecoilValue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="165" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="useSetRecoilState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="205" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="useResetRecoilState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="250" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="370" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="45" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1240" y="395" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="&lt;span&gt;useRecoilStateLoadable&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="380" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;span&gt;useRecoilValueLoadable&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="420" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="同步 selector" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="18" target="35" edge="1">
+                    <mxGeometry x="-0.773" y="2" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="570" y="540" as="sourcePoint"/>
+                        <mxPoint x="810" y="290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="710" y="325"/>
+                            <mxPoint x="710" y="280"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="异步 selector" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.016;entryY=0.823;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="18" target="42" edge="1">
+                    <mxGeometry x="-0.7913" y="2" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="749" y="440" as="sourcePoint"/>
+                        <mxPoint x="810" y="450" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="710" y="355"/>
+                            <mxPoint x="710" y="452"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="46" target="57" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1026" y="440" as="sourcePoint"/>
+                        <mxPoint x="1236" y="435" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="&lt;span&gt;[ loadable, setState]&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="385" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="loadable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="425" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="同步读取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1026" y="90" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="异步读取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="350" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;font color=&quot;#ff3399&quot;&gt;const productAtom = atom({&lt;br&gt;&amp;nbsp; key: 'productState',&amp;nbsp;&lt;br&gt;&amp;nbsp; default: [] &lt;/font&gt;&lt;font color=&quot;#999999&quot;&gt;// 初始值 [确定值、promise、其他 atom 或者 selector]&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot; color=&quot;#ff3399&quot;&gt;&amp;nbsp; dangerouslyAllowMutability ?: boolean&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot; color=&quot;#808080&quot;&gt; // 默认为 false，一般不设置&lt;/font&gt;&lt;font color=&quot;#ff3399&quot;&gt;&lt;br&gt;})&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="437" y="35" width="380" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&lt;font color=&quot;#330033&quot;&gt;const [ products, setProducts ] =&amp;nbsp;useRecoilState(&lt;/font&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(255 , 51 , 153) ; text-align: left&quot;&gt;productAtom&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#660066&quot;&gt;)&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="50" width="350" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;font color=&quot;#cc6600&quot;&gt;const productCountSelector = selector( {&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; key: 'productCount',&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; get: ({get}) =&amp;gt; { &lt;/font&gt;&lt;font color=&quot;#999999&quot;&gt;// 可以是 async 函数 ,返回 promise 异步 selector&lt;/font&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;font color=&quot;#999999&quot;&gt;// get: &lt;/font&gt;&lt;font color=&quot;#b266ff&quot;&gt;get(someAtom) ,&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#999999&quot;&gt;从上游的 Recoil 状态 （atom 或 selector） 获取值,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // get 的参数（atom 或者 selector） 会成为 selector 的依赖，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 依赖改变就会重新计算 selector，否则使用缓存的结果&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;},&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; set ?: ({set, reset, get}, newValue) =&amp;gt; { &lt;/font&gt;&lt;font color=&quot;#999999&quot;&gt;// 可选，如果不定义 set 就是&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;readonly selector&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#cc6600&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;i style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/i&gt;&lt;font color=&quot;#808080&quot;&gt; &amp;nbsp;// set: &lt;/font&gt;&lt;font color=&quot;#b266ff&quot;&gt;set(someAtom, value ),&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#808080&quot;&gt; 设置上游&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(153 , 153 , 153)&quot;&gt;的 Recoil 状态的值&lt;/span&gt;&lt;font color=&quot;#808080&quot; style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// get:&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(178 , 102 , 255)&quot;&gt;get(someAtom),&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#808080&quot; style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;获取 Recoil 状态值，但是不会将其加入 selector 的依赖&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;i style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;font color=&quot;#cc6600&quot; style=&quot;font-size: 13px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;}，&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/i&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#994c00&quot;&gt;&lt;span class=&quot;token plain&quot; style=&quot;box-sizing: border-box&quot;&gt;&amp;nbsp; dangerouslyAllowMutability&lt;/span&gt;&lt;span class=&quot;token operator&quot; style=&quot;box-sizing: border-box&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token operator&quot; style=&quot;box-sizing: border-box&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token plain&quot; style=&quot;box-sizing: border-box&quot;&gt; boolean&lt;/span&gt;&lt;span class=&quot;token punctuation&quot; style=&quot;box-sizing: border-box&quot;&gt;,&lt;/span&gt;&lt;/font&gt;&lt;i style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#ff8000&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;}&lt;/font&gt;&lt;/font&gt;&lt;font color=&quot;#cc6600&quot; style=&quot;font-size: 13px&quot;&gt; )&lt;/font&gt;&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="490" width="500" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;font color=&quot;#330033&quot;&gt;const [ productsCount, setProductsCount ] =&amp;nbsp;useRecoilState(&lt;/font&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(204 , 102 , 0) ; text-align: left&quot;&gt;productCount&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 51 , 153) ; text-align: left&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#660066&quot;&gt;)&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="895" y="70" width="420" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="endArrow=classic;html=1;entryX=-0.01;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" target="28" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1160" y="262" as="sourcePoint"/>
+                        <mxPoint x="1116" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="Loadable ：表示 Recoil 的当前状态.&lt;br&gt;loadable.state 表示 atom 或者 selector 的状态 ，有 'hasValue'、'loading'、'hasError'&lt;br&gt;loadable.contents 是读取的状态的值&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#66cc00&quot;&gt;switch (loadable.state) {&lt;br&gt;&amp;nbsp; &amp;nbsp;case 'loading' : &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; console.log(loadable.content) // promise&lt;br&gt;&amp;nbsp; &amp;nbsp;case 'hasError' : &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; console.err(loadable.content) // thorw 的 err&lt;br&gt;&amp;nbsp; &amp;nbsp;case 'hasvalue' : &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; console.log(loadable.content) // Recoil&amp;nbsp; 状态确定的值&lt;br&gt;}&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1340" y="450" width="460" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Loadable 提供给了一些辅助方法，用于获取当前状态：&lt;br&gt;getValue、toPromise、valueMaybe、map ... ..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="1330" y="640" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;lt;RecoilRoot&amp;gt;&lt;br&gt;&amp;nbsp;&lt;font color=&quot;#666666&quot;&gt; &amp;lt;App/&amp;gt;&lt;/font&gt;&lt;br&gt;&amp;lt;/RecoilRoot&amp;gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="60" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="endArrow=classic;html=1;entryX=0.003;entryY=0.162;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.958;exitY=0.361;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="17" target="35" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="570" y="150" as="sourcePoint"/>
+                        <mxPoint x="850" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="同步 atom" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="70" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6253" relative="1" as="geometry">
+                        <mxPoint x="6" y="0.42" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="&lt;span&gt;useRecoilCallback&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="670" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&lt;font color=&quot;#ccff99&quot;&gt;这些 hooks 在组件更新时就会重新执行&lt;br&gt;以获取状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="495" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="&lt;font color=&quot;#ccff99&quot;&gt;组件更新不会重新执行，&lt;br&gt;使用返回的函数可以获取当前状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#393C56;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="625" width="200" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

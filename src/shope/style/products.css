@@ -1,0 +1,29 @@
+.product-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.product-item>div{
+  flex: 1;
+  text-align: center;
+  padding: 3px;
+}
+.add-to-cart {
+  border-radius: 3px;
+  background-color: rgb(42, 165, 93);
+  color: white;
+}
+.rm-in-cart{
+  border-radius: 3px;
+  background-color: rgb(214, 127, 28);
+  color: white;
+}
+.add-to-cart:hover, .rm-in-cart:hover {
+  cursor: pointer;
+}
+.add-to-cart:active, .rm-in-cart:active{
+  background-color: aqua;
+  color: black;
+}

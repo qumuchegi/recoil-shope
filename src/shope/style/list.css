@@ -1,0 +1,47 @@
+.list-header{
+  display: flex;
+  justify-content: space-around;
+  padding: 2px;
+}
+.list-item{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.list-item>div, .list-header>div{
+  text-align: center;
+  flex: 1;
+}
+.cart-operation{
+  display: flex;
+  justify-content: space-around;
+}
+.reduce-item{
+  background-color: coral;
+  color: white;
+  font-weight: border;
+  border-radius: 3px;
+  padding: 2px;
+  width: 60px;
+}
+.add-item {
+  background-color: rgb(51, 160, 87);
+  font-weight: border;
+  color: white;
+  border-radius: 3px;
+  padding: 2px;
+  width: 60px;
+}
+.remove-item{
+  background-color: rgb(207, 38, 52);
+  color: wheat;
+  border-radius: 3px;
+  padding: 2px;
+  width: 60px;
+}
+.reduce-item:hover, .remove-item:hover, .add-item:hover {
+  cursor: pointer;
+}
+.reduce-item:active, .remove-item:active, .add-item:active {
+  background-color: cornflowerblue;
+}
