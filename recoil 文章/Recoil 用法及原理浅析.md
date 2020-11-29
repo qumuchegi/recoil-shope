@@ -37,7 +37,7 @@ Recoil 还在实验阶段，不能在生产环境使用。目前文章分析的�
   >
   > Recoil state tree 与组件树正交 [[1]](#图1) :
   >
-  > ![](/Users/qumuchege/Desktop/recoil-demo/recoil-shopee/recoil 文章/recoil-state-flow.png)
+  > ![](./recoil-state-flow.png)
 
 
 
