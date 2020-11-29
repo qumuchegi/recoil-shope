@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Shope from './shope'
 import reportWebVitals from './reportWebVitals';
+import MyRecoil from './my-recoil/index'
 import whyDidYouRender from '@welldone-software/why-did-you-render'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Shope />
+    <MyRecoil/>
+    {/* <Shope /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
