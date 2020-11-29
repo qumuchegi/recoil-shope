@@ -1051,7 +1051,7 @@ function sendEndOfBatchNotifications(store: Store) {
 
 ```
 
-`storeState.queuedComponentCallbacks_DEPRECATED`中把 `useRecoilValue`中推入的 forceUpdate 取出来执行，于是  `useRecoilValue` 便能够在更新的时候读区新的 state。
+`storeState.queuedComponentCallbacks_DEPRECATED`中把 `useRecoilValue`中推入的 forceUpdate 取出来执行，于是  `useRecoilValue` 便能够在更新的时候读取新的 state。
 
 `Batcher` 被放在 `<RecoilRoot>` 下面成为其 children，返回文章最上面  `<RecoilRoot>`  的源码可以看到是这样写的:
 
