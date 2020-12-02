@@ -57,7 +57,7 @@ function Com3() {
   )
 }
 
-App.whyDidYouRender = true
+ App.whyDidYouRender = true
 export default function App() {
   
   return <MyRecoilRoot>
