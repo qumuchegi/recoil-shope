@@ -56,3 +56,13 @@ function Com3() {
     </div>
   )
 }
+
+App.whyDidYouRender = true
+export default function App() {
+  
+  return <MyRecoilRoot>
+    <Com1/>
+    <Com2/>
+    <Com3/>
+  </MyRecoilRoot>
+}
